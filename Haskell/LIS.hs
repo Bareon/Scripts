@@ -13,6 +13,7 @@ lis' (x0:x1:xs) c m
    
 main :: IO ()
 main = do
+   putStrLn $ "Insert array:"
    list <- readLn
    print $ lis list
  {- putStr $ "Longest of [15,27,14,38,26,55,46,65,85]: "
